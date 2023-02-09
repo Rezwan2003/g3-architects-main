@@ -1,3 +1,7 @@
+body{
+    font-family: 'Work Sans';
+
+}
 header{
     background-color:  rgba(255, 144, 14, 0.1);
     margin: 0px;
@@ -14,7 +18,7 @@ nav{
     padding: auto;
 }
 nav h2{
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 45px;
     color: #131313;
 }
@@ -36,9 +40,11 @@ ul li{
     font-weight: 700px;
     font-size: 64px;
     color: #131313;
-    margin-bottom: 15px;
+    margin-bottom:0px;
+    line-height: 2px
 }
 .description{
+    margin-top: 70px;
     font-weight: 400px;
     font-size: 16px;
     color: #727272;
@@ -194,10 +200,12 @@ ul li{
     color: #727272;
 }
 
+.achivment-main{
+    display: flex;
+    justify-content:space-between
+}
 .achivment{
     margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 100px;
 }
 .achivment{
@@ -290,17 +298,26 @@ ul li{
         flex-direction: row-reverse;
         justify-content: space-around;
     }
+    nav h2{
+        font-size: 20px;
+    }
+
     ul{
         flex-direction: column;
         margin-top: 65px;
         gap: 9px;
     }
-    .banner-img{
-        width: 90%;
-        height: 60%;
+    .banner-img img{
+        width: 100%;
+        height: 50%;
+    }
+    .brand-section{
+        margin-top: 30px;
     }
     .brand-titel{
-        font-size: 46px;
+        margin-top: 20px;
+        font-size: 36px;
+        line-height:normal;
     }
     .section {
         flex-direction: column;
@@ -337,12 +354,16 @@ ul li{
     .exp-btn{
         padding: 10px 10px 10px 10px ;
     }
-    .achivment{
+    .Facts{
+        padding-left: 20px;
+    }
+    .achivment-main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .achivment{
+        margin-top: 30px;
         margin-bottom: 30px;
     }
     .sponsor-logo{
